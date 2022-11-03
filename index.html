@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,800;1,500&family=Nunito:ital,wght@0,600;1,900&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@300;400&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="intro"></div>
+
+        <div class="salute">
+            <div class="saluteTextContainer">
+                <h1 class="saluteText">Hej!</h1>
+            </div>
+            <div class="saluteImgContainer">
+                <img src="./img/meHur.png" alt="" class="saluteImg">
+            </div>
+        </div>
+        <div class="nameContainer">
+            <h2 class="name">Mitt Namn Är Viktor</h2>
+        </div>
+        <div class="jobTitleContainer dark">
+            <h2 class="jobTitle">En Studerande .Net Utvecklare</h2>
+        </div>
+        <div class="jobTitleContainer light">
+            <h2 class="jobTitle">Blivande Fullstack Utvecklare</h2>
+        </div>
+        <div class="projects">
+            <h1 class="projectsTitle">Här är några av mina projekt</h1>
+            <div class="project">
+              <div class="phone">
+                <img src="./img/laptop.png" alt="" />
+                <div class="laptopScreen">
+                  <img src="./img/berra.png" alt="" class="phoneApp" />
+                </div>
+              </div>
+              <div class="projectDetail">
+                <h1 class="projectTitle">Berras Bio</h1>
+                <p class="projectDesc">
+                    En ASP.Net Razor Pages sida där användare kan boka biobiljetter till ett urval av filmer
+                    Användare kan registera sig och få admin behörigheter för att kunna lägga till nya filmer för användare att boka biljetter till. 
+                </p>
+                <form action="https://github.com/vihu001/BerraCinema">
+                    <button class="projectButton">Learn More</button>
+                </form>
+              </div>
+            </div>
+            <div class="project">
+              <div class="laptop">
+                <img src="./img/laptop.png" alt="" />
+                <div class="laptopScreen">
+                  <img src="./img/hamsterLaptop.png" alt="" class="laptopApp" />
+                </div>
+              </div>
+              <div class="projectDetail">
+                <h1 class="projectTitle">Hamster War</h1>
+                <p class="projectDesc">
+                  ASP.Net Blazor server med ASP.Net Web API för att kunna ladda upp hamstrar som sedan ska "slåss" för en användarens röst till vem som är sötast.
+                  Två hamstrar blir slumpmässigt valda inför tävlning och vinnaren får + i wins medans förloraren får + i förlust.
+                </p>
+                <form action="https://github.com/vihu001/HamsterWar">
+                    <button class="projectButton">Learn More</button>
+                </form>
+              </div>
+            </div>
+            <div class="project">
+              <div class="phone">
+                <img src="./img/phone.png" alt="" />
+                <div class="phoneScreen">
+                  <img src="./img/mifamilia.png" alt="" class="phoneApp" />
+                </div>
+              </div>
+              <div class="projectDetail">
+                <h1 class="projectTitle">Mifamilia</h1>
+                <p class="projectDesc">
+                  En pinterest klon där användare kan ladda upp samt kommentera bilder.
+                  Inloggning sker via google authentication och användare kan se vem som har laddat upp bilder och filtrera bilder genom olika kategorier.
+                  React med Javascript använt till frontend och Sanity använt som backend.
+
+                </p>
+                <form action="https://github.com/vihu001/Mifamilia">
+                    <button class="projectButton">Learn More</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="githubContainer">
+              <div class="spinner justify-content: center">
+                  <div class="face1"><img src="./img/sqllogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+                  <div class="face2"><img src="./img/csslogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+                  <div class="face3"><img src="./img/tslogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+                  <div class="face4"><img src="./img/jslogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+                  <div class="face5"><img src="./img/cshartlogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+                  <div class="face6"><img src="./img/htmllogo.png" style="height: 120px; width: 120px; line-height: 120px;"></div>
+              </div>
+              <h1 class="githubTitle">Vill du se fler projekt?</h1>
+            <div class="githubChart">
+                <div class="dates">
+                    <span>Jan</span>
+                    <span>Feb</span>
+                    <span>Mar</span>
+                    <span>Apr</span>
+                    <span>May</span>
+                    <span>Jun</span>
+                    <span>Jul</span>
+                    <span>Agu</span>
+                    <span>Sep</span>
+                    <span>Oct</span>
+                    <span>Nov</span>
+                    <span>Dec</span>
+                </div>
+                <div class="boxContainer"></div>
+                <a href="https://github.com/vihu001">
+                  <img src="./img/gitcat.png" alt=""/>
+                </a>
+                <h1 class="githubTitle">GITHUB</h1>
+            </div>
+          </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
